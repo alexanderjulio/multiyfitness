@@ -11,7 +11,7 @@ header{
   padding-top: 50px;
   padding-bottom: 0px;
   text-align: center;
-  background-image: url("/img/full-shot-woman-with-headphones.jpg");
+  background-image: url("../img/full-shot-woman-with-headphones.jpg");
 }
 
 .h1{
@@ -116,7 +116,7 @@ main .contenedor-producto{
   height: 250px;
   margin: auto;
   border-radius: 10px;
-  background-image: url('/img/acce1.jpg');
+  background-image: url('../img/acce1.jpg');
   background-repeat: no-repeat;
   background-position-x: cover; 
   color: #fff;
@@ -129,7 +129,7 @@ main .contenedor-producto{
   height: 250px;
   margin: auto;
   border-radius: 10px;
-  background-image: url('/img/acce1.jpg');
+  background-image: url('../img/acce1.jpg');
   background-repeat: no-repeat;
   background-position-x: cover; 
   color: #fff;
@@ -142,7 +142,7 @@ main .contenedor-producto{
   height: 250px;
   margin: auto;
   border-radius: 10px;
-  background-image: url('/img/acce1.jpg');
+  background-image: url('../img/acce1.jpg');
   background-repeat: no-repeat;
   background-position-x: cover; 
   color: #fff;
@@ -239,7 +239,7 @@ footer{
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
-  background-image: url("/img/contact.jpg");
+  background-image: url("../img/contact.jpg");
 }
 
 .contact-form {
