@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/styles.css">
+  <title>MULTYFITNESS</title>
+  <script>
+    function loadPage(pageURL){
+      document.getElementById('content-frame').src = pageURL;
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <h1 class="h1">MULTYFITNESS</h1>
+    <section>
+      <nav>
+        <ul class="navbar">
+          <li class="dropdown"><a href="#" onclick="loadPage('secciones/inicio.html')">Inicio</a></li>
+          <li class="dropdown">
+            <a href="#">Nosotros</a>
+            <ul class="submenu">
+              <li><a href="#" onclick="loadPage('secciones/nosotros/lo_que_queremos.html')">Lo que queremos</a></li>
+              <li><a href="#" onclick="loadPage('secciones/nosotros/lo_que_buscamos.html')">Lo que búscamos</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#">Musculación</a>
+            <ul class="submenu">
+              <li><a href="#" onclick="loadPage('secciones/musculacion/bancos.html')">Bancos</a></li>
+              <li><a href="#" onclick="loadPage('secciones/musculacion/pesas.html')">Pesas</a></li>
+              <li><a href="#" onclick="loadPage('secciones/musculacion/barras.html')">Barras</a></li>
+              <li><a href="#" onclick="loadPage('secciones/musculacion/discos.html')">Discos</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" onclick="loadPage('secciones/cardio.html')">Cardio</a>
+            <ul class="submenu">
+              <li><a href="#" onclick="loadPage('secciones/cardio/caminadoras.html')">Caminadoras</a></li>
+              <li><a href="#" onclick="loadPage('secciones/cardio/elipticas.html')">Elípticas</a></li>
+              <li><a href="#" onclick="loadPage('secciones/cardio/bicicletas.html')">Bicicletas</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" onclick="loadPage('secciones/accesorios.html')">Accesorios</a>
+            <ul class="submenu">
+              <li><a href="#" onclick="loadPage('secciones/accesorios/guantes.html')">Guantes</a></li>
+              <li><a href="#" onclick="loadPage('secciones/accesorios/termos.html')">Termos</a></li>
+              <li><a href="#" onclick="loadPage('secciones/accesorios/basculas.html')">Básculas</a></li>
+              <li><a href="#" onclick="loadPage('secciones/accesorios/fajas.html')">Fajas</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" onclick="loadPage('secciones/suplementos.html')">Suplementos</a>
+            <ul class="submenu">
+              <li><a href="#" onclick="loadPage('secciones/suplementos/proteinas.html')">Proteínas</a></li>
+              <li><a href="#" onclick="loadPage('secciones/suplementos/creatina.html')">Creatina</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" onclick="loadPage('/secciones/contacto.html')">Contácto</a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+  </header>
+  <main>
+    <iframe id="content-frame" src="secciones/inicio.html" frameborder="0" width="100%" height="900"></iframe>
+  </main>
+  
+  <footer class="footer">
+    &copy 2025 Multifitnes. Todos los derechos reservados
+  </footer>
+</body>
+</html>

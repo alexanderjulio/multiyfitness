@@ -1,0 +1,325 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+header{
+  background-color: #1c37d1;
+  color: #fff;
+  padding-top: 50px;
+  padding-bottom: 0px;
+  text-align: center;
+  background-image: url("/img/full-shot-woman-with-headphones.jpg");
+}
+
+.h1{
+  font-size: 200px;
+}
+
+h1{
+  font-size: 90px;
+}
+
+h2{
+  font-size: 50px;
+  text-align: center;
+}
+
+nav ul{
+  /* color: #f8f8f8; */
+  list-style: none;
+  padding: 0px;
+  background-color: #333;
+  margin-TOP: 250px;
+}
+
+nav li{
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a{
+  color: #f8f8f8;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+li a:hover{
+  background-color: #1d1a1a;
+  padding: 20px;
+}
+
+main .contenedor-producto{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 20px;
+}
+
+.producto{
+  background-color: #f8f8f8;
+  border: 1px solid;
+  border-radius: 5px;
+  text-align: center;
+  padding: 15px;
+  width: 450px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.producto2{
+  background-color: #f8f8f8;
+  text-align: center;
+  padding: 15px;
+  width: 850px;
+}
+
+.producto3{
+  background-color: #f8f8f8;
+  border: 1px solid;
+  border-radius: 45px;
+  text-align: center;
+  padding: 15px;
+  width: 250px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.texto{
+  display: flex;
+  text-align: justify;
+  padding-left: 500px;
+  padding-right: 500px;
+}
+
+.producto img{
+  width: 80%;
+  object-fit: contain; /* para mantener la proporción correcta de imagen */
+  border-radius: 450px;
+}
+
+.producto2 img{
+  width: 100%;
+  height: 500px;
+  object-fit: contain; /* para mantener la proporción correcta de imagen */
+}
+
+.producto3 img{
+  width: 80%;
+  object-fit: contain; /* para mantener la proporción correcta de imagen */
+  border-radius: 450px;
+}
+
+.imaAcc{
+  width: 1100px;
+  height: 250px;
+  margin: auto;
+  border-radius: 10px;
+  background-image: url('/img/acce1.jpg');
+  background-repeat: no-repeat;
+  background-position-x: cover; 
+  color: #fff;
+  text-align: center;
+  font-size: 200px;
+}
+
+.imaCardio{
+  width: 1100px;
+  height: 250px;
+  margin: auto;
+  border-radius: 10px;
+  background-image: url('/img/acce1.jpg');
+  background-repeat: no-repeat;
+  background-position-x: cover; 
+  color: #fff;
+  text-align: center;
+  font-size: 200px;
+}
+
+.imaSuple{
+  width: 1100px;
+  height: 250px;
+  margin: auto;
+  border-radius: 10px;
+  background-image: url('/img/acce1.jpg');
+  background-repeat: no-repeat;
+  background-position-x: cover; 
+  color: #fff;
+  text-align: center;
+  font-size: 170px;
+}
+
+.producto button{
+  background-color: #c98115;
+  color: #f8f8f8;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.producto3 button{
+  background-color: #c98115;
+  color: #f8f8f8;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/**/
+.navbar {
+  list-style: none;
+  background-color: #c98115;
+  padding: 0;
+  margin-top: 200PX;
+}
+
+.navbar > .dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.navbar > .dropdown > a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  background-color: #c98115;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  min-width: 180px;
+}
+
+.submenu .dropdown {
+  position: relative;
+}
+
+.submenu .submenu {
+  left: 100%;
+  top: 0;
+}
+
+.dropdown:hover > .submenu {
+  display: block;
+}
+
+.submenu li a {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover {
+  background-color: #c98115;
+}
+
+.submenu li:hover {
+  background-color: #c98115;
+}
+/**/
+
+footer{
+  background-color: rgb(59, 56, 56);
+  text-align: center;
+  color: #f8f8f8;
+  padding: 50px;
+}
+
+/* Contenedor del formulario */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  background-image: url("/img/contact.jpg");
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Título */
+.contact-form h2 {
+  text-align: center;
+  color: #ff9800;
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+/* Descripción */
+.contact-form p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Etiquetas */
+.contact-form label {
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #333;
+  text-align: left;
+}
+
+/* Inputs y textarea */
+.contact-form input, 
+.contact-form textarea {
+  width: 95%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Área de mensaje más grande */
+.contact-form textarea {
+  height: 120px;
+  resize: none;
+}
+
+/* Contenedor para los inputs en línea */
+.form-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+/* Hacer que los inputs se distribuyan correctamente */
+.form-group input {
+  flex: 1;
+}
+
+/* Botón de envío */
+.contact-form button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  background-color: #ff9800;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.contact-form button:hover {
+  background-color: #e68a00;
+}
